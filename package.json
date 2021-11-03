@@ -18,6 +18,7 @@
     "react-loadingg": "^1.7.2",
     "react-scripts": "4.0.3",
     "react-scroll": "^1.8.4",
+    "react-slick": "^0.28.1",
     "truffle-plugin-verify": "^0.5.15",
     "web-vitals": "^1.1.2"
   },

@@ -2,6 +2,8 @@ import { useState, useEffect } from "react"
 import Sidebar from "components/Sidebar"
 import Navbar from "components/Navbar"
 import About from "components/About"
+import Feature from "components/Freatures"
+import Roadmap from "components/Roadmap"
 import Footer from "components/Footer"
 
 const Dashboard = () => {
@@ -30,6 +32,8 @@ const Dashboard = () => {
       <Sidebar show={showSidebar} onHandleSidebar={onHandleSidebar} />
       <Navbar onHandleSidebar={onHandleSidebar} />
       <About />
+      <Feature />
+      <Roadmap />
       <Footer />
     </>
   )

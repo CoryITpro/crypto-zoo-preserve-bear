@@ -3,7 +3,12 @@
 .footer {
   width: 100%;
   justify-content: center;
-  margin-top: 1px solid $gray;
+  padding: 48px 0;
+  border-top: 1px solid $gray;
+
+  @media (max-width: 768px) {
+    padding: 8px 0 16px;
+  }
 
   &-wrapper {
     align-items: center;
@@ -11,7 +16,7 @@
 
   &-logo {
     min-width: 144px;
-    padding: 64px 0 16px;
+    padding: 16px 0;
 
     & > span {
       color: $white;
