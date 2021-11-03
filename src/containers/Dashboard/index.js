@@ -4,6 +4,7 @@ import Navbar from "components/Navbar"
 import About from "components/About"
 import Feature from "components/Freatures"
 import Roadmap from "components/Roadmap"
+import Team from "components/Team"
 import Footer from "components/Footer"
 
 const Dashboard = () => {
@@ -34,6 +35,7 @@ const Dashboard = () => {
       <About />
       <Feature />
       <Roadmap />
+      <Team />
       <Footer />
     </>
   )

@@ -1,3 +1,13 @@
+import {
+  Bear1,
+  Bear2,
+  Bear3,
+  Bear4,
+  Bear5,
+  Bear6,
+  Bear7,
+} from "resources/Sneakpeak"
+
 export const NavLinks = ["About", "Features", "Roadmap", "Team", "Faq"]
 
 export const RoadmapSteps = [
@@ -36,5 +46,57 @@ export const RoadmapSteps = [
     title: "AFTER PARTY",
     content:
       "100% The Party Ape liquidity pool is initiated. It’s time to initiate the next steps. Holders spotting the chapter two clues will have access to early rewards giving them a major heads up.",
+  },
+]
+
+export const TeamMembers = [
+  {
+    name: "BEAR ONE",
+    role: "The Co-Founder",
+    instagram: "instagram",
+    linkedin: "linkedin",
+    avatar: Bear1,
+  },
+  {
+    name: "BEAR TWO",
+    role: "The Co-Founder",
+    instagram: "instagram",
+    linkedin: "linkedin",
+    avatar: Bear2,
+  },
+  {
+    name: "BEAR THREE",
+    role: "Website & Blockchain Expert",
+    instagram: "",
+    linkedin: "",
+    avatar: Bear3,
+  },
+  {
+    name: "BEAR FOUR",
+    role: "The Artist",
+    instagram: "instagram",
+    linkedin: "linkedin",
+    avatar: Bear4,
+  },
+  {
+    name: "BEAR FIVE",
+    role: "The Marketing Spirit",
+    instagram: "instagram",
+    linkedin: "linkedin",
+    avatar: Bear5,
+  },
+  {
+    name: "BEAR SIX",
+    role: "The Advisor",
+    instagram: "instagram",
+    linkedin: "linkedin",
+    avatar: Bear6,
+  },
+  {
+    name: "BEAR SEVEN",
+    role: "Discord Expert",
+    instagram: "instagram",
+    linkedin: "linkedin",
+    avatar: Bear7,
   },
 ]
