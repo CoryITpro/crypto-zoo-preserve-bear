@@ -19,17 +19,17 @@ contract Collection is ERC721Enumerable, Ownable, ERC721Burnable, ERC721Pausable
 
     bool public SALE_OPEN = false;
 
-    uint256 private constant PRICE = 69 * 10**15; // 0.069ETH Per Nipple
-    uint256 private constant PRICE_PRESALE = 5 * 10**16; // 0.05ETH Per Nipple
-    uint256 private constant PRICE_PREMINT = 0; // Free Per Nipple
+    uint256 private constant PRICE = 1 * 10**17; // 0.1ETH Per Bears
+    uint256 private constant PRICE_PRESALE = 5 * 10**16; // 0.05ETH Per Bear
+    uint256 private constant PRICE_PREMINT = 0; // Free Per Bear
 
-    uint256 private constant MAX_ELEMENTS = 4444; // 4444 Nipples for Entire Collection.
-    uint256 private constant MAX_ELEMENTS_PRESALE = 444; // 444 Nipples for Pre Sale.
-    uint256 private constant MAX_ELEMENTS_PREMINT = 30; // 30 Nipples for GiveAway.
+    uint256 private constant MAX_ELEMENTS = 2500; // 4444 Bears for Entire Collection.
+    uint256 private constant MAX_ELEMENTS_PRESALE = 490; // 490 Bears for Pre Sale.
+    uint256 private constant MAX_ELEMENTS_PREMINT = 10; // 10 Bears for GiveAway.
 
     uint256 private constant MAX_MINT = 20; // Upper Limit per Mint is 20
     uint256 private constant MAX_MINT_PRESALE = 5; // Upper Limit per Mint is 5
-    uint256 private constant MAX_MINT_PREMINT = 28; // Upper Limit per Mint is 28
+    uint256 private constant MAX_MINT_PREMINT = 10; // Upper Limit per Mint is 28
 
     uint256 private _price;
     uint256 private _maxElements;
@@ -47,8 +47,9 @@ contract Collection is ERC721Enumerable, Ownable, ERC721Burnable, ERC721Pausable
 
     modifier saleIsOpen {
         if (_msgSender() != owner()) {
-            require(SALE_OPEN == true, "SALES: Please wait a big longer before buying Nipples ;)");
+            require(SALE_OPEN == true, "SALES: Please wait a big longer before buying Crypto Zoo Preserve Bears ;)");
         }
+
         require(_totalSupply() <= MAX_ELEMENTS, "SALES: Sale end");
 
         if (_msgSender() != owner()) {
@@ -57,7 +58,7 @@ contract Collection is ERC721Enumerable, Ownable, ERC721Burnable, ERC721Pausable
         _;
     }
 
-    constructor (string memory baseURI) ERC721("Nippleverse", "NIP") {
+    constructor (string memory baseURI) ERC721("Crypto Zoo Preserve Bears", "CZPBEAR") {
         setBaseURI(baseURI);
 
         _price = PRICE_PREMINT;
@@ -73,11 +74,11 @@ contract Collection is ERC721Enumerable, Ownable, ERC721Burnable, ERC721Pausable
         }
 
         require(total + _ids.length <= _maxElements, "MINT: Current count exceeds maximum element count.");
-        require(total <= _maxElements, "MINT: Please go to the Opensea to buy NippleVerse.");
+        require(total <= _maxElements, "MINT: Please go to the Opensea to buy Crypto Zoo Preserve Bears.");
         require(_ids.length <= _maxMint, "MINT: Current count exceeds maximum mint count.");
 
         if (_to != owner()) {
-            require(msg.value >= price(_ids.length), "MINT: Current value is below the sales price of NippleVerse");
+            require(msg.value >= price(_ids.length), "MINT: Current value is below the sales price of Crypto Zoo Preserve Bears");
         }
 
         for (uint256 i = 0; i < _ids.length; i++) {

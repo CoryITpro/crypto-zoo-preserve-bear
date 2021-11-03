@@ -1,0 +1,65 @@
+@import "../../styles/variables.scss";
+
+.footer {
+  width: 100%;
+  justify-content: center;
+  margin-top: 1px solid $gray;
+
+  &-wrapper {
+    align-items: center;
+  }
+
+  &-logo {
+    min-width: 144px;
+    padding: 64px 0 16px;
+
+    & > span {
+      color: $white;
+
+      &:first-child {
+        font-size: 14px;
+      }
+
+      &:last-child {
+        font-size: 24px;
+        font-weight: bold;
+        letter-spacing: 4px;
+      }
+    }
+  }
+
+  &-socials {
+    padding: 16px 0;
+
+    & > a {
+      cursor: pointer;
+
+      &:not(:last-child) {
+        margin-right: 24px;
+      }
+
+      & > svg {
+        color: $white;
+        width: 32px;
+        height: 32px;
+      }
+    }
+  }
+
+  &-contract {
+    padding: 8px 0;
+    cursor: pointer;
+
+    & > a {
+      color: $white;
+      text-decoration: none;
+      font-size: 14px;
+      text-align: center;
+    }
+  }
+
+  &-copyright {
+    color: $white;
+    text-align: center;
+  }
+}
