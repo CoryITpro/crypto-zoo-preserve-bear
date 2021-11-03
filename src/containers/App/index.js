@@ -1,12 +1,11 @@
 import { Suspense, lazy } from "react"
-import Loading from "components/Loading"
+import { CoffeeLoading } from "react-loadingg"
 
 const Dashboard = lazy(() => import("containers/Dashboard"))
 
 const App = () => (
-  <Suspense fallback={<Loading />}>
-    {/* <Dashboard /> */}
-    <Loading />
+  <Suspense fallback={<CoffeeLoading />}>
+    <Dashboard />
   </Suspense>
 )
 
