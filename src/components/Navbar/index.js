@@ -1,10 +1,10 @@
 import { Link } from "react-scroll"
 import { NavLinks } from "constants/index"
-import { FaLinkedin, FaInstagram, FaTwitter } from "react-icons/fa"
+import { FaLinkedin, FaInstagram, FaTwitter, FaBars } from "react-icons/fa"
 import { OpenseaIcon } from "resources/Icons"
 import "./style.scss"
 
-const Navbar = () => (
+const Navbar = ({ onHandleSidebar }) => (
   <div className="navbar flex">
     <div className="navbar-wrapper container flex">
       <div className="navbar-logo flex flex-column">
@@ -43,6 +43,9 @@ const Navbar = () => (
         <a className="flex" href="" target="_blank" rel="noreferrer">
           <span>Join Our Discord</span>
         </a>
+        <button className="flex" onClick={onHandleSidebar}>
+          <FaBars />
+        </button>
       </div>
     </div>
   </div>
