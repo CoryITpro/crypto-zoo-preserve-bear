@@ -1,0 +1,52 @@
+@import "../../styles/variables.scss";
+
+.discord {
+  width: 100%;
+  justify-content: center;
+  padding: 48px 0;
+
+  @media (max-width: 768px) {
+    padding: 32px 0;
+  }
+
+  &-wrapper {
+    align-items: center;
+
+    & > span {
+      color: $theme;
+      font-size: 24px;
+      font-weight: bold;
+
+      @media (max-width: 768px) {
+        font-size: 18px;
+      }
+    }
+
+    & > p {
+      color: $white;
+      text-align: center;
+      font-size: 36px;
+      font-weight: bold;
+
+      @media (max-width: 768px) {
+        font-size: 24px;
+        flex-direction: column !important;
+      }
+
+      & > span {
+        color: $theme;
+      }
+    }
+
+    & > a {
+      white-space: nowrap;
+      text-align: center;
+      text-decoration: none;
+      padding: 16px 48px;
+      border: 1px solid $white;
+      border-radius: 8px;
+      color: $white;
+      cursor: pointer;
+    }
+  }
+}

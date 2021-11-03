@@ -1,0 +1,31 @@
+@import "../../../styles/variables.scss";
+
+.faq-item {
+  width: 100%;
+  border-bottom: 1px solid $gray;
+
+  & > span {
+    padding: 24px 0;
+    color: $white;
+    font-size: 18px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+
+    @media (max-width: 768px) {
+      padding: 16px 0;
+      font-size: 14px;
+    }
+  }
+
+  & > p {
+    color: $gray;
+    font-size: 16px;
+    margin: 0 0 16px;
+
+    @media (max-width: 768px) {
+      font-size: 14px;
+    }
+  }
+}

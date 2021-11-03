@@ -19,13 +19,13 @@
     padding: 16px 0;
 
     & > span {
-      color: $white;
-
       &:first-child {
+        color: $white;
         font-size: 14px;
       }
 
       &:last-child {
+        color: $theme;
         font-size: 24px;
         font-weight: bold;
         letter-spacing: 4px;
@@ -56,7 +56,7 @@
     cursor: pointer;
 
     & > a {
-      color: $white;
+      color: $theme;
       text-decoration: none;
       font-size: 14px;
       text-align: center;
@@ -64,7 +64,8 @@
   }
 
   &-copyright {
-    color: $white;
+    color: $theme;
     text-align: center;
+    font-size: 14px;
   }
 }

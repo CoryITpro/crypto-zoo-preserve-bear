@@ -4,7 +4,7 @@ import "./style.scss"
 const Roadmap = () => (
   <div className="roadmap flex">
     <div className="roadmap-wrapper container flex flex-column">
-      <div className="roadmap-title">ROADMAP</div>
+      <div className="roadmap-title">LAUNCH ROADMAP</div>
       <p>
         As we value our community and its creativity, our roadmap will be
         updated according to your comments and ideas.

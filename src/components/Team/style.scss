@@ -73,7 +73,7 @@
         }
 
         &:last-of-type {
-          color: $gray;
+          color: $theme;
 
           @media (max-width: 768px) {
             font-size: 12px;

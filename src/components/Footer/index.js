@@ -1,4 +1,4 @@
-import { FaLinkedin, FaInstagram, FaTwitter } from "react-icons/fa"
+import { FaDiscord, FaInstagram, FaTwitter } from "react-icons/fa"
 import { OpenseaIcon } from "resources/Icons"
 import "./style.scss"
 
@@ -14,7 +14,7 @@ const Footer = () => (
           <OpenseaIcon />
         </a>
         <a className="flex" href="" target="_blank" rel="noreferrer">
-          <FaLinkedin />
+          <FaDiscord />
         </a>
         <a className="flex" href="" target="_blank" rel="noreferrer">
           <FaInstagram />

@@ -100,3 +100,46 @@ export const TeamMembers = [
     avatar: Bear7,
   },
 ]
+
+export const FaqItems = [
+  {
+    question: "WHERE CAN I VIEW MY NFTS?",
+    answer:
+      "Once minted, simply connect to your OpenSea account to view your NFTs.",
+  },
+  {
+    question: "WHERE CAN I VIEW MY NFTS?",
+    answer:
+      "Once minted, simply connect to your OpenSea account to view your NFTs.",
+  },
+  {
+    question: "WHERE CAN I VIEW MY NFTS?",
+    answer:
+      "Once minted, simply connect to your OpenSea account to view your NFTs.",
+  },
+  {
+    question: "WHERE CAN I VIEW MY NFTS?",
+    answer:
+      "Once minted, simply connect to your OpenSea account to view your NFTs.",
+  },
+  {
+    question: "WHERE CAN I VIEW MY NFTS?",
+    answer:
+      "Once minted, simply connect to your OpenSea account to view your NFTs.",
+  },
+  {
+    question: "WHERE CAN I VIEW MY NFTS?",
+    answer:
+      "Once minted, simply connect to your OpenSea account to view your NFTs.",
+  },
+  {
+    question: "WHERE CAN I VIEW MY NFTS?",
+    answer:
+      "Once minted, simply connect to your OpenSea account to view your NFTs.",
+  },
+  {
+    question: "WHERE CAN I VIEW MY NFTS?",
+    answer:
+      "Once minted, simply connect to your OpenSea account to view your NFTs.",
+  },
+]

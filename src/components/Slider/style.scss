@@ -1,0 +1,54 @@
+@import "../../styles/variables.scss";
+
+.slider {
+  width: 100%;
+  padding: 48px 0;
+  align-items: center;
+  background-color: $darkgray;
+
+  @media (max-width: 768px) {
+    padding: 36px 0;
+  }
+
+  &-title {
+    display: grid;
+    grid-template: auto / 1fr 1fr;
+
+    @media (max-width: 768px) {
+      grid-template: auto / 1fr;
+    }
+
+    & > span {
+      color: $white;
+      font-size: 36px;
+      font-weight: bold;
+
+      @media (max-width: 768px) {
+        text-align: center;
+        font-size: 24px;
+      }
+    }
+
+    & > div {
+      color: $gray;
+
+      @media (max-width: 768px) {
+        font-size: 14px;
+        text-align: center;
+        margin-top: 24px;
+      }
+
+      & > a {
+        color: $white;
+        text-decoration: none;
+        padding: 16px 24px;
+        border: 1px solid $white;
+        width: min-content;
+        white-space: nowrap;
+        margin-top: 24px;
+        border-radius: 8px;
+        font-weight: bold;
+      }
+    }
+  }
+}

@@ -11,7 +11,7 @@ const Feature = () => (
           <span></span>
         </div>
         <div className="features-wording-title flex flex-column">
-          <span>Crypto Zoo Preserve</span>
+          <span>A Private Grizzly Club</span>
           <span>Grizzlies</span>
         </div>
         <p>
