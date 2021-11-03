@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react"
 import Sidebar from "components/Sidebar"
 import Navbar from "components/Navbar"
+import About from "components/About"
 import Footer from "components/Footer"
 
 const Dashboard = () => {
@@ -28,6 +29,7 @@ const Dashboard = () => {
     <>
       <Sidebar show={showSidebar} onHandleSidebar={onHandleSidebar} />
       <Navbar onHandleSidebar={onHandleSidebar} />
+      <About />
       <Footer />
     </>
   )
