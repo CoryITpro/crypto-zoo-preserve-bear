@@ -37,7 +37,7 @@
 
   &-wording {
     padding-left: 64px;
-    justify-content: center;
+    padding-top: 32px;
 
     @media (max-width: 1024px) {
       padding-left: 0px;
@@ -61,24 +61,21 @@
       width: 100%;
 
       & > span {
+        font-size: 36px;
+        font-weight: bold;
+        white-space: nowrap;
+
+        @media (max-width: 768px) {
+          font-size: 24px;
+        }
+
         &:first-child {
           color: $white;
-          font-size: 36px;
-          font-weight: bold;
-
-          @media (max-width: 768px) {
-            font-size: 24px;
-          }
+          margin-right: 8px;
         }
 
         &:last-child {
           color: $theme;
-          font-size: 48px;
-          font-weight: bold;
-
-          @media (max-width: 768px) {
-            font-size: 36px;
-          }
         }
       }
     }

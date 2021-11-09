@@ -15,14 +15,11 @@ const Feature = () => (
           <span>Grizzlies</span>
         </div>
         <p>
-          Lorem Ipsum dolar sit Lorem Ipsum dolar sit Lorem Ipsum dolar sit
-          Lorem Ipsum dolar sit Lorem Ipsum dolar sit Lorem Ipsum dolar sit
-          Lorem Ipsum dolar sit Lorem Ipsum dolar sit Lorem Ipsum dolar sit
-        </p>
-        <p>
-          Lorem Ipsum dolar sit Lorem Ipsum dolar sit Lorem Ipsum dolar sit
-          Lorem Ipsum dolar sit Lorem Ipsum dolar sit Lorem Ipsum dolar sit
-          Lorem Ipsum dolar sit Lorem Ipsum dolar sit Lorem Ipsum dolar sit
+          For each animal’s collection, there will be 12 famous paws randomly
+          minted. The holder of a famous paw will be awarded $5000 as well as a
+          $1000 donation under their name to (name of preserve). Holders of
+          famous paws will also be granted special access to live events and
+          future animal drops.
         </p>
         <a className="flex" href="" target="_blank" rel="noreferrer">
           <button>Join Us</button>

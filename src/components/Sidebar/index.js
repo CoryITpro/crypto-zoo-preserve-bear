@@ -33,10 +33,20 @@ const Sidebar = ({ show, onHandleSidebar }) => (
       <a className="flex" href="" target="_blank" rel="noreferrer">
         <FaLinkedin />
       </a>
-      <a className="flex" href="" target="_blank" rel="noreferrer">
+      <a
+        className="flex"
+        href="https://instagram.com/cryptozoopreserve"
+        target="_blank"
+        rel="noreferrer"
+      >
         <FaInstagram />
       </a>
-      <a className="flex" href="" target="_blank" rel="noreferrer">
+      <a
+        className="flex"
+        href="https://twitter.com/preservezoo"
+        target="_blank"
+        rel="noreferrer"
+      >
         <FaTwitter />
       </a>
     </div>

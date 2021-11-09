@@ -37,7 +37,7 @@ const Dashboard = () => {
       <Navbar onHandleSidebar={onHandleSidebar} />
       <About />
       <Feature />
-      {/* <Slider /> */}
+      <Slider />
       <Roadmap />
       <Team />
       <FAQ />

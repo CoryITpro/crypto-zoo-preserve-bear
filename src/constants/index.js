@@ -15,13 +15,13 @@ export const RoadmapSteps = [
     percentage: 10,
     title: "GRAND OPENING",
     content:
-      "Congratulations, you are on the guest list. Give your name to the bouncer and jump the line. Join the community on Discord. Get Aped up with us.",
+      "Accolade of 25,000 discord members was achieved. Join the whitelist to access our 500 bear presale.",
   },
   {
     percentage: 20,
     title: "ROUND OF SHOTS",
     content:
-      "A $30,000 fund is available to finance the community’s creations, designs, and development. Also, 1% of the OpenSea fees are dedicated to this special fund, ensuring the Billionaire’s club longevity through common projects.",
+      "Land has been purchased in the metaverse. Also a $12,000 donation has been sent to (Zoo Place)under our communities name. 2500 more zoo animals are released into the metaverse. ",
   },
   {
     percentage: 40,

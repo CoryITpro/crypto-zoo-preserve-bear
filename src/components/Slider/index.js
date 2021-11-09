@@ -7,7 +7,6 @@ import {
   Bear6,
   Bear7,
 } from "resources/Sneakpeak"
-import "swiper/swiper.scss"
 import "./style.scss"
 
 const Slider = () => (

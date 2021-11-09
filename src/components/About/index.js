@@ -15,19 +15,16 @@ const About = () => (
           ABOUT
           <span></span>
         </div>
-        <div className="about-wording-title flex flex-column">
-          <span>Crypto Zoo Preserve</span>
-          <span>Grizzlies</span>
+        <div className="about-wording-title flex">
+          <span>Crypto Zoo</span>
+          <span>Preserve</span>
         </div>
         <p>
-          Lorem Ipsum dolar sit Lorem Ipsum dolar sit Lorem Ipsum dolar sit
-          Lorem Ipsum dolar sit Lorem Ipsum dolar sit Lorem Ipsum dolar sit
-          Lorem Ipsum dolar sit Lorem Ipsum dolar sit Lorem Ipsum dolar sit
-        </p>
-        <p>
-          Lorem Ipsum dolar sit Lorem Ipsum dolar sit Lorem Ipsum dolar sit
-          Lorem Ipsum dolar sit Lorem Ipsum dolar sit Lorem Ipsum dolar sit
-          Lorem Ipsum dolar sit Lorem Ipsum dolar sit Lorem Ipsum dolar sit
+          The Crypto Zoo Preserve is an exclusive collection of 10 000 NFTs -
+          Your own digital collectibles. Starting with bears, the Zoo Preserve
+          will feature four 2500 collection drops. The bears are stored as
+          ERC-721 tokens on the Ethereum Blockchain and will be playable
+          characters in the metaverse.
         </p>
       </div>
     </div>
