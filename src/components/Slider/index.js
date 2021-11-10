@@ -1,12 +1,4 @@
-import {
-  Bear1,
-  Bear2,
-  Bear3,
-  Bear4,
-  Bear5,
-  Bear6,
-  Bear7,
-} from "resources/Sneakpeak"
+import { FamousPaws } from "constants/index"
 import "./style.scss"
 
 const Slider = () => (
@@ -23,6 +15,14 @@ const Slider = () => (
           <span>JOIN US TO REGISTER FOR PRESALE</span>
         </a>
       </div>
+    </div>
+    <div className="slider-slide flex">
+      {FamousPaws.map((data, index) => (
+        <div key={index} className="slider-slide-item flex flex-column">
+          <img src={data.image} alt="baby yo bear" />
+          <span>{data.title}</span>
+        </div>
+      ))}
     </div>
   </div>
 )

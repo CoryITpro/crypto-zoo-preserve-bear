@@ -8,7 +8,70 @@ import {
   Bear7,
 } from "resources/Sneakpeak"
 
+import {
+  BabyYoBear,
+  BashBetchum,
+  BearKinHead,
+  Broot,
+  GrizaldMcBear,
+  GrizzSaw,
+  GrizzlyDon3,
+  GrizzlyWise,
+  HomBearGrizzSon,
+  KanyeBear,
+  SnoopBear,
+  StatusOfGrizzly,
+} from "resources/Famous"
+
 export const NavLinks = ["About", "Features", "Roadmap", "Team", "Faq"]
+
+export const FamousPaws = [
+  { image: BabyYoBear, title: "Baby Yo-Bear" },
+  {
+    image: BashBetchum,
+    title: "Bash Betchum",
+  },
+  {
+    image: BearKinHead,
+    title: "Bear-Kin Head",
+  },
+  {
+    image: Broot,
+    title: "Broot",
+  },
+  {
+    image: GrizaldMcBear,
+    title: "Grizld McBear",
+  },
+  {
+    image: GrizzSaw,
+    title: "Grizz Saw",
+  },
+  {
+    image: GrizzlyDon3,
+    title: "Grizzly Don 3",
+  },
+  {
+    image: GrizzlyWise,
+    title: "Grizzly Wise",
+  },
+  {
+    image: HomBearGrizzSon,
+    title: "HomBear GrizzSon",
+  },
+  {
+    image: KanyeBear,
+    title: "Kanye Bear",
+  },
+  {
+    image: SnoopBear,
+    title: "Snoop Bear",
+  },
+  {
+    image: StatusOfGrizzly,
+    title: "Status Of Grizzly",
+  },
+]
 
 export const RoadmapSteps = [
   {
