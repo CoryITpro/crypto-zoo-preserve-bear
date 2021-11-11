@@ -41,7 +41,7 @@ export const FamousPaws = [
   },
   {
     image: GrizaldMcBear,
-    title: "Grizld McBear",
+    title: "Grizald McBear",
   },
   {
     image: GrizzSaw,
@@ -88,8 +88,8 @@ export const RoadmapSteps = [
   },
   {
     percentage: 40,
-    title: "Coming soon",
-    content: "Coming soon",
+    title: "GET BIGGER",
+    content: "Another 12,000 Donation to (Zoo Place)",
   },
   {
     percentage: 60,
@@ -164,41 +164,26 @@ export const FaqItems = [
   {
     question: "WHERE CAN I VIEW MY NFTS?",
     answer:
-      "Once minted, simply connect to your OpenSea account to view your NFTs.",
+      "Once you have minted your NFT, connect to your OpenSea account to view all your NFTs. Your Grizzly will automatically be linked to your OpenSea account associated with your Eth wallet.",
   },
   {
-    question: "WHERE CAN I VIEW MY NFTS?",
+    question: "HOW CAN I USE MY NFT?",
     answer:
-      "Once minted, simply connect to your OpenSea account to view your NFTs.",
+      "Your Crypto Zoo Preserve grizzly will be available as a playable character in the metaverse. If your grizzly is compatible, you'll also be able to breed and play as your new cub.",
   },
   {
-    question: "WHERE CAN I VIEW MY NFTS?",
+    question: "WHERE ARE THE FAMOUS PAWS?",
     answer:
-      "Once minted, simply connect to your OpenSea account to view your NFTs.",
+      "There will be 12 famous paws featured in the grizzly drop. All 12 will be randomly minted. The holder of each paw will receive $5000 + our team will grant a $1000 donation to the holder's choice of place. You will also receive early access to future drops under the Crypto Zoo Preserve.",
   },
   {
-    question: "WHERE CAN I VIEW MY NFTS?",
+    question: "HOW WILL THIS INVESTMENT HELP ME SHORT AND LONG TERM?",
     answer:
-      "Once minted, simply connect to your OpenSea account to view your NFTs.",
+      "This project has more meaning and utility to it rather than just a normal JPG on the ethereum blockchain. Our team at Crypto Zoo Preserve has a plan in place to form connections with real life zoo’s and organizations to help support wildlife. After partnering with these organizations, our team will also purchase land on the most popular metaverses like Sandbox and Meta (Facebook). Ultimately building a zoo on the metaverse where you can roam amongst your pack.",
   },
   {
-    question: "WHERE CAN I VIEW MY NFTS?",
+    question: "WHAT IS THE METAVERSE?",
     answer:
-      "Once minted, simply connect to your OpenSea account to view your NFTs.",
-  },
-  {
-    question: "WHERE CAN I VIEW MY NFTS?",
-    answer:
-      "Once minted, simply connect to your OpenSea account to view your NFTs.",
-  },
-  {
-    question: "WHERE CAN I VIEW MY NFTS?",
-    answer:
-      "Once minted, simply connect to your OpenSea account to view your NFTs.",
-  },
-  {
-    question: "WHERE CAN I VIEW MY NFTS?",
-    answer:
-      "Once minted, simply connect to your OpenSea account to view your NFTs.",
+      "The metaverse is a shared virtual experience where land, avatars and names can be bought and sold with crypto currencies. As you may have seen, large companies are slowly shaping around the metaverse as well. The future is moving more and more towards the metaverse, Crypto Zoo Preserve supports the metaverse and will allow you to join it using our characters as assets.",
   },
 ]
