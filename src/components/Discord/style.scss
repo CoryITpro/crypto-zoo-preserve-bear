@@ -23,7 +23,7 @@
     }
 
     & > p {
-      color: $white;
+      color: $brown;
       text-align: center;
       font-size: 36px;
       font-weight: bold;
@@ -34,7 +34,12 @@
       }
 
       & > span {
+        margin-left: 8px;
         color: $theme;
+
+        @media (max-width: 768px) {
+          margin-left: 0px;
+        }
       }
     }
 
@@ -42,10 +47,12 @@
       white-space: nowrap;
       text-align: center;
       text-decoration: none;
-      padding: 16px 48px;
-      border: 1px solid $white;
+      padding: 8px 48px;
+      border: 2px solid $brown;
+      font-size: 18px;
+      font-weight: bold;
       border-radius: 8px;
-      color: $white;
+      color: $brown;
       cursor: pointer;
     }
   }

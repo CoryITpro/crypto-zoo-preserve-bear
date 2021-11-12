@@ -23,7 +23,7 @@ import {
   StatusOfGrizzly,
 } from "resources/Famous"
 
-export const NavLinks = ["About", "Features", "Roadmap", "Team", "Faq"]
+export const NavLinks = ["about", "features", "roadmap", "team", "faq"]
 
 export const FamousPaws = [
   { image: BabyYoBear, title: "Baby Yo-Bear" },

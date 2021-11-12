@@ -15,22 +15,22 @@
     text-align: center;
 
     & > span {
-      color: $white;
-      font-size: 36px;
+      color: $brown;
+      font-size: 48px;
       font-weight: bold;
 
       @media (max-width: 768px) {
-        font-size: 24px;
+        font-size: 32px;
       }
     }
 
     & > p {
-      font-size: 16px;
+      font-size: 20px;
       margin: 16px 0 48px;
       color: $gray;
 
       @media (max-width: 768px) {
-        font-size: 14px;
+        font-size: 16px;
         margin: 16px 0 32px;
       }
     }
@@ -62,7 +62,7 @@
 
       & > span {
         &:first-of-type {
-          color: $white;
+          color: $brown;
           font-size: 20px;
           font-weight: bold;
           padding: 8px 0 0;
@@ -73,7 +73,7 @@
         }
 
         &:last-of-type {
-          color: $theme;
+          color: $gray;
 
           @media (max-width: 768px) {
             font-size: 12px;
@@ -97,7 +97,7 @@
         }
 
         & > svg {
-          color: $white;
+          color: $brown;
           width: 24px;
           height: 24px;
 
