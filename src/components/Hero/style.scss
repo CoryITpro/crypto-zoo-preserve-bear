@@ -1,1 +1,169 @@
 @import "../../styles/variables.scss";
+
+.hero {
+  width: 100%;
+  justify-content: center;
+  padding: 256px 0 32px;
+  background-color: aquamarine;
+  border-radius: 0 0 32px 32px;
+
+  @media (max-width: 768px) {
+    padding: 192px 0 16px;
+    border-radius: 0 0 16px 16px;
+  }
+
+  &-wrapper {
+    align-items: center;
+
+    & > img {
+      width: calc(100% - 24px);
+
+      @media (max-width: 768px) {
+        width: 100%;
+      }
+    }
+  }
+
+  &-minter {
+    width: 100%;
+    padding: 24px 0;
+    background-image: url("../../resources/navbar.png");
+    background-size: auto 100%;
+    background-repeat: repeat-x;
+    border-radius: 16px;
+    border-left: 2px;
+    border-right: 2px;
+    border-color: $brown;
+    display: grid;
+    grid-template: auto / 1fr 1fr;
+    grid-column-gap: 24px;
+    grid-row-gap: 12px;
+
+    @media (max-width: 768px) {
+      grid-template: auto / 1fr;
+    }
+
+    &-title {
+      color: $brown;
+      font-size: 36px;
+      align-items: center;
+      justify-content: center;
+      padding-left: 32px;
+      text-align: center;
+
+      @media (max-width: 768px) {
+        font-size: 24px;
+        padding-left: 0px;
+      }
+    }
+
+    &-soldout {
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 24px 0;
+      font-size: 48px;
+      color: $theme;
+    }
+
+    &-controller {
+      justify-content: center;
+      align-items: center;
+
+      & > p {
+        color: $theme;
+        font-weight: bold;
+        font-size: 24px;
+        text-align: center;
+        margin: 0 0 12px 0;
+      }
+
+      & > div {
+        width: 90%;
+        max-width: 360px;
+      }
+
+      &-clock {
+        display: grid;
+        grid-template: auto / 1fr 1fr 1fr 1fr;
+
+        &-timer {
+          & > div {
+            justify-content: center;
+
+            & > span {
+              color: $brown;
+              font-size: 48px;
+              text-align: center;
+            }
+          }
+
+          & > span {
+            color: $theme;
+            text-align: center;
+            font-size: 18px;
+          }
+        }
+      }
+
+      &-counter {
+        align-items: center;
+        justify-content: center;
+        font-size: 24px;
+        height: 48px;
+        color: $brown;
+
+        & > span {
+          width: 120px;
+          text-align: center;
+          font-size: 32px;
+          padding-top: 4px;
+        }
+
+        & > svg {
+          cursor: pointer;
+        }
+      }
+
+      &-price {
+        justify-content: center;
+        color: $theme;
+        font-size: 36px;
+        margin-top: 8px;
+      }
+
+      &-minter {
+        justify-content: center;
+        padding-top: 16px;
+
+        & > button {
+          color: $brown;
+          background-color: $darkgray;
+          padding: 8px 0;
+          font-size: 24px;
+          width: 240px;
+          border: 0;
+          border-radius: 8px;
+          cursor: pointer;
+          justify-content: center;
+          align-items: center;
+
+          &:hover {
+            color: $theme;
+          }
+
+          & > svg {
+            margin-right: 16px;
+            animation: spinning 1s ease-in-out infinite;
+          }
+        }
+      }
+    }
+  }
+}
+
+@keyframes spinning {
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -5,5 +5,6 @@ import Bear4 from "./4.jpg"
 import Bear5 from "./5.jpg"
 import Bear6 from "./6.jpg"
 import Bear7 from "./7.jpg"
+import Random from "./random.gif"
 
-export { Bear1, Bear2, Bear3, Bear4, Bear5, Bear6, Bear7 }
+export { Bear1, Bear2, Bear3, Bear4, Bear5, Bear6, Bear7, Random }

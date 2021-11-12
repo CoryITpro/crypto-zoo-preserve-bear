@@ -20,7 +20,7 @@ const Navbar = ({ onHandleSidebar }) => (
             to={data.toLowerCase()}
             spy={true}
             smooth={true}
-            offset={0}
+            offset={-96}
             duration={500}
           >
             {data}

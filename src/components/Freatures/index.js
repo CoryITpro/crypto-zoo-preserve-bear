@@ -1,5 +1,5 @@
 import { FaArrowRight } from "react-icons/fa"
-import { Bear1 } from "resources/Sneakpeak"
+import { Random } from "resources/Sneakpeak"
 import "./style.scss"
 
 const Feature = () => (
@@ -27,7 +27,7 @@ const Feature = () => (
         </a>
       </div>
       <div className="features-sneakpeak">
-        <img src={Bear1} alt="sneakpeak gif" loading="lazy" />
+        <img src={Random} alt="sneakpeak gif" loading="lazy" />
       </div>
     </div>
   </div>

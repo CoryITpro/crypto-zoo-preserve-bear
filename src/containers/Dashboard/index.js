@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react"
 import Sidebar from "components/Sidebar"
 import Navbar from "components/Navbar"
+import Hero from "components/Hero"
 import About from "components/About"
 import Feature from "components/Freatures"
 import Slider from "components/Slider"
@@ -35,6 +36,7 @@ const Dashboard = () => {
     <>
       <Sidebar show={showSidebar} onHandleSidebar={onHandleSidebar} />
       <Navbar onHandleSidebar={onHandleSidebar} />
+      <Hero />
       <About />
       <Feature />
       <Slider />
