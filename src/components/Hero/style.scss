@@ -3,13 +3,13 @@
 .hero {
   width: 100%;
   justify-content: center;
-  padding: 256px 0 32px;
-  background-color: aquamarine;
-  border-radius: 0 0 32px 32px;
+  padding: 80px 0 32px;
+  background-image: url("../../resources/bg.jpg");
+  background-size: cover;
+  background-position: center bottom;
 
   @media (max-width: 768px) {
-    padding: 192px 0 16px;
-    border-radius: 0 0 16px 16px;
+    padding: 128px 0 32px;
   }
 
   &-wrapper {
@@ -27,13 +27,12 @@
   &-minter {
     width: 100%;
     padding: 24px 0;
-    background-image: url("../../resources/navbar.png");
     background-size: auto 100%;
-    background-repeat: repeat-x;
+    background-color: $darkgray;
     border-radius: 16px;
     border-left: 2px;
     border-right: 2px;
-    border-color: $brown;
+    border-color: $white;
     display: grid;
     grid-template: auto / 1fr 1fr;
     grid-column-gap: 24px;
@@ -44,7 +43,7 @@
     }
 
     &-title {
-      color: $brown;
+      color: $white;
       font-size: 36px;
       align-items: center;
       justify-content: center;
@@ -92,7 +91,7 @@
             justify-content: center;
 
             & > span {
-              color: $brown;
+              color: $white;
               font-size: 48px;
               text-align: center;
             }
@@ -111,7 +110,7 @@
         justify-content: center;
         font-size: 24px;
         height: 48px;
-        color: $brown;
+        color: $white;
 
         & > span {
           width: 120px;
@@ -137,7 +136,7 @@
         padding-top: 16px;
 
         & > button {
-          color: $brown;
+          color: $white;
           background-color: $darkgray;
           padding: 8px 0;
           font-size: 24px;

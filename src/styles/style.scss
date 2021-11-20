@@ -1,13 +1,13 @@
 @import "./variables.scss";
 
 @font-face {
-  font-family: "Best School";
-  src: url("../resources/Fonts/best-school.otf");
+  font-family: "Hamberger Bold";
+  src: url("../resources/Fonts/Hamberger-Bold.ttf");
 }
 
 * {
   outline: 0;
-  font-family: "Best School";
+  font-family: "Hamberger Bold";
   box-sizing: border-box;
 }
 
@@ -19,7 +19,7 @@ body {
   padding: 0;
   outline: 0;
   overflow-x: hidden;
-  background-color: $brown-light;
+  background-color: $black;
 }
 
 #root {

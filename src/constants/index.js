@@ -1,14 +1,4 @@
 import {
-  Bear1,
-  Bear2,
-  Bear3,
-  Bear4,
-  Bear5,
-  Bear6,
-  Bear7,
-} from "resources/Sneakpeak"
-
-import {
   BabyYoBear,
   BashBetchum,
   BearKinHead,
@@ -114,49 +104,49 @@ export const TeamMembers = [
     role: "The Co-Founder",
     instagram: "instagram",
     linkedin: "linkedin",
-    avatar: Bear1,
+    avatar: BabyYoBear,
   },
   {
     name: "BEAR TWO",
     role: "The Co-Founder",
     instagram: "instagram",
     linkedin: "linkedin",
-    avatar: Bear2,
+    avatar: BabyYoBear,
   },
   {
     name: "BEAR THREE",
     role: "Website & Blockchain Expert",
     instagram: "",
     linkedin: "",
-    avatar: Bear3,
+    avatar: BabyYoBear,
   },
   {
     name: "BEAR FOUR",
     role: "The Artist",
     instagram: "instagram",
     linkedin: "linkedin",
-    avatar: Bear4,
+    avatar: BabyYoBear,
   },
   {
     name: "BEAR FIVE",
     role: "The Marketing Spirit",
     instagram: "instagram",
     linkedin: "linkedin",
-    avatar: Bear5,
+    avatar: BabyYoBear,
   },
   {
     name: "BEAR SIX",
     role: "The Advisor",
     instagram: "instagram",
     linkedin: "linkedin",
-    avatar: Bear6,
+    avatar: BabyYoBear,
   },
   {
     name: "BEAR SEVEN",
     role: "Discord Expert",
     instagram: "instagram",
     linkedin: "linkedin",
-    avatar: Bear7,
+    avatar: BabyYoBear,
   },
 ]
 

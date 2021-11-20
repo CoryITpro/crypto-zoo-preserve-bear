@@ -1,30 +1,32 @@
-import { Bear1, Bear2, Bear3, Bear4 } from "resources/Sneakpeak"
+import { AboutImage } from "resources/Decorations"
 import "./style.scss"
 
 const About = () => (
   <div className="about flex">
     <div className="about-wrapper container">
-      <div className="about-sneakpeak">
-        <img src={Bear1} alt="bear1" loading="lazy" />
-        <img src={Bear2} alt="bear2" loading="lazy" />
-        <img src={Bear3} alt="bear3" loading="lazy" />
-        <img src={Bear4} alt="bear4" loading="lazy" />
+      <div className="about-sneakpeak flex">
+        <img src={AboutImage} alt="feature" />
       </div>
       <div className="about-wording flex flex-column">
         <div className="about-wording-section flex">
-          ABOUT
+          About
           <span></span>
         </div>
-        <div className="about-wording-title flex">
+        <div className="about-wording-title flex flex-column">
           <span>Crypto Zoo</span>
           <span>Preserve</span>
         </div>
         <p>
-          The Crypto Zoo Preserve is an exclusive collection of 10 000 NFTs -
-          Your own digital collectibles. Starting with bears, the Zoo Preserve
-          will feature four 2500 collection drops. The bears are stored as
-          ERC-721 tokens on the Ethereum Blockchain and will be playable
-          characters in the metaverse.
+          <span>The Crypto Zoo Preserve</span> is an exclusive collection of{" "}
+          <span>10 000 NFTs</span> - Your own digital collectibles. Starting
+          with bears.
+        </p>
+        <p>
+          <span>The Zoo Preserve</span> will feature{" "}
+          <span>four 2500 collection drops.</span>
+          The bears are stored as <span>ERC-721 tokens</span> on the{" "}
+          <span>Ethereum Blockchain</span> and will be playable characters in
+          the metaverse.
         </p>
       </div>
     </div>

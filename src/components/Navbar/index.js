@@ -1,58 +1,19 @@
-import { Link } from "react-scroll"
-import { NavLinks } from "constants/index"
-import { FaLinkedin, FaInstagram, FaTwitter, FaBars } from "react-icons/fa"
-import { OpenseaIcon } from "resources/Icons"
+import { FaBars } from "react-icons/fa"
+import { WLogo } from "resources/Logos"
 import "./style.scss"
 
 const Navbar = ({ onHandleSidebar }) => (
-  <div className="navbar flex">
-    <div className="navbar-wrapper container flex">
-      <div className="navbar-logo flex flex-column">
-        <span>Crypto Zoo Preserve</span>
-        <span>Grizzlies</span>
+  <div className="navbar">
+    <div className="navbar-wrapper flex">
+      <div className="navbar-logo flex">
+        <img src={WLogo} alt="white logo" />
+        <div className="navbar-logo-text flex flex-column">
+          <span>Crypto</span>
+          <span>Zoo Preserve</span>
+        </div>
       </div>
-      <div className="navbar-links">
-        {NavLinks.map((data, index) => (
-          <Link
-            key={index}
-            className="navbar-links-anchor"
-            activeClass="active"
-            to={data.toLowerCase()}
-            spy={true}
-            smooth={true}
-            offset={-96}
-            duration={500}
-          >
-            {data}
-          </Link>
-        ))}
-      </div>
-      <div className="navbar-socials flex">
-        <a className="flex" href="" target="_blank" rel="noreferrer">
-          <OpenseaIcon />
-        </a>
-        <a className="flex" href="" target="_blank" rel="noreferrer">
-          <FaLinkedin />
-        </a>
-        <a
-          className="flex"
-          href="https://instagram.com/cryptozoopreserve"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <FaInstagram />
-        </a>
-        <a
-          className="flex"
-          href="https://twitter.com/preservezoo"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <FaTwitter />
-        </a>
-        <a className="flex" href="" target="_blank" rel="noreferrer">
-          <span>Join Our Discord</span>
-        </a>
+      <div className="navbar-buttons flex">
+        <button className="flex">Connect</button>
         <button className="flex" onClick={onHandleSidebar}>
           <FaBars />
         </button>

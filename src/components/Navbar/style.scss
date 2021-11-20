@@ -1,17 +1,14 @@
 @import "../../styles/variables.scss";
 
 .navbar {
-  position: fixed;
+  position: absolute;
   width: 100%;
-  height: 112px;
-  justify-content: center;
-  background-image: url("../../resources/navbar.png");
-  background-size: auto 100%;
-  background-repeat: repeat-x;
+  height: 80px;
+  padding: 0 32px;
   z-index: 99;
 
   @media (max-width: 768px) {
-    height: 96px;
+    padding: 0 5%;
   }
 
   &-wrapper {
@@ -20,95 +17,60 @@
   }
 
   &-logo {
-    min-width: 144px;
-
-    & > span {
-      color: $brown;
-
-      &:first-child {
-        font-size: 18px;
-      }
-
-      &:last-child {
-        color: $theme;
-        font-size: 32px;
-        line-height: 32px;
-        font-weight: bold;
-        letter-spacing: 4px;
-      }
-    }
-  }
-
-  &-links {
-    color: $brown;
-    font-size: 24px;
-
-    @media (max-width: 1024px) {
-      display: none;
-    }
-
-    &-anchor {
-      cursor: pointer;
-
-      &:not(:last-child) {
-        margin-right: 24px;
-      }
-    }
-  }
-
-  &-socials {
-    margin-left: 24px;
     align-items: center;
 
-    & > a {
-      align-items: center;
-      cursor: pointer;
-      white-space: nowrap;
+    & > img {
+      width: 72px;
 
       @media (max-width: 768px) {
-        display: none;
-      }
-
-      &:not(:last-of-type) {
-        margin-right: 8px;
-      }
-
-      &:last-of-type {
-        color: $brown;
-        font-weight: bold;
-        text-decoration: none;
-        padding: 8px 24px;
-        border: 2px solid $brown;
-        border-radius: 8px;
-      }
-
-      & > svg {
-        width: 32px;
-        height: 32px;
-        color: $brown;
+        width: 48px;
       }
     }
 
-    & > button {
-      display: none;
-      width: 36px;
-      height: 36px;
-      align-items: center;
-      justify-content: center;
-      border: 0;
-      background-color: $brown-light;
-      margin-left: 16px;
+    &-text {
+      padding-top: 8px;
 
-      @media (max-width: 1024px) {
-        display: flex;
+      & > span {
+        color: $white;
+        font-size: 28px;
+
+        @media (max-width: 768px) {
+          display: none;
+        }
+      }
+    }
+  }
+
+  &-buttons {
+    padding-top: 8px;
+
+    & > button {
+      height: 56px;
+      border: none;
+      align-items: center;
+      color: $white;
+      font-size: 48px;
+      background-color: transparent;
+      cursor: pointer;
+
+      @media (max-width: 768px) {
+        height: 48px;
+        font-size: 32px;
       }
 
-      & > svg {
-        color: $brown;
-        font-size: 24px;
+      &:first-of-type {
+        font-size: 28px;
+        color: $pink;
+        background-color: $white;
+        border-radius: 16px;
+        text-transform: uppercase;
+        padding: 4px 24px 0;
+        margin-right: 32px;
 
-        &:hover {
-          color: $gray;
+        @media (max-width: 768px) {
+          font-size: 20px;
+          margin-right: 16px;
+          padding: 4px 16px 0;
         }
       }
     }
