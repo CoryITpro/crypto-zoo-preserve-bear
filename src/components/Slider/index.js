@@ -4,17 +4,19 @@ import "./style.scss"
 const Slider = () => (
   <div className="slider flex flex-column">
     <div className="slider-title container">
-      <span>FAMOUS PAWS</span>
       <div className="flex flex-column">
         <span>
-          The Famous Paws edition by the bearly famous club is the rarest of the
-          NFTs. They are individual drawn and will represent a large role in our
-          club.
+          Famous <span>Paws</span>
         </span>
-        <a className="flex" href="" target="_blank" rel="noreferrer">
-          <span>JOIN US TO REGISTER FOR PRESALE</span>
-        </a>
+        <p>
+          The Famous Paws Club by Crypto Zoo Preserve are the rarest NFTs. They
+          are all hand drawn by our artist @klaksy.exe and share no similar
+          traits with our regular collection.
+        </p>
       </div>
+      <a className="flex" href="" target="_blank" rel="noreferrer">
+        <span>JOIN US</span>
+      </a>
     </div>
     <div className="slider-slide flex">
       {FamousPaws.map((data, index) => (

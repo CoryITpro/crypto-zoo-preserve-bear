@@ -4,7 +4,7 @@ import "./style.scss"
 
 const FAQ = () => (
   <div className="faq flex flex-column">
-    <div className="faq-title">FREQUENTLY ASKED QUESTIONS</div>
+    <div className="faq-title">FAQ</div>
     <div className="faq-wrapper container flex flex-column">
       {FaqItems.map((data, index) => (
         <FaqItem key={index} question={data.question} answer={data.answer} />

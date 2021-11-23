@@ -6,12 +6,6 @@ const Team = () => (
   <div className="team flex flex-column">
     <div className="team-title container flex flex-column">
       <span>OUR TEAM</span>
-      <p>
-        The Billionaire club was created by a team of digital native:
-        Entrepreneurs, Blockchain experts, Marketing wizards, and Artists… We
-        are committed to delivering a cutting-edge experience and making this
-        project a success.
-      </p>
     </div>
     <div className="team-wrapper container">
       {TeamMembers.map((data, index) => (

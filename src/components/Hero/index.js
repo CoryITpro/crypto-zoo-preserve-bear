@@ -25,7 +25,7 @@ const Hero = ({ soldout, mintloading }) => {
               ? "Check Grizzles on Opensea"
               : Object.keys(timeLeft).length === 0
               ? "Get grab your Grizzlies"
-              : "Join our discord for more informations"}
+              : "Join our discord for more information"}
           </div>
           <div className="hero-minter-controller flex flex-column">
             {soldout ? (

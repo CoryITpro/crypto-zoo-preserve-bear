@@ -10,13 +10,13 @@
   }
 
   &-title {
-    color: $brown;
-    font-size: 48px;
+    color: $white;
+    font-size: 72px;
     font-weight: bold;
     text-align: center;
 
     @media (max-width: 768px) {
-      font-size: 32px;
+      font-size: 56px;
     }
   }
 

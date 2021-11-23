@@ -2,8 +2,8 @@ import { FaBars } from "react-icons/fa"
 import { WLogo } from "resources/Logos"
 import "./style.scss"
 
-const Navbar = ({ onHandleSidebar }) => (
-  <div className="navbar">
+const Navbar = ({ show, onHandleSidebar }) => (
+  <div className={`navbar${show ? " hide" : ""}`}>
     <div className="navbar-wrapper flex">
       <div className="navbar-logo flex">
         <img src={WLogo} alt="white logo" />

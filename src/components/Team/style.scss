@@ -4,7 +4,6 @@
   width: 100%;
   align-items: center;
   padding: 64px 0;
-  background-color: $darkgray;
 
   @media (max-width: 768px) {
     padding: 32px 0;
@@ -15,12 +14,13 @@
     text-align: center;
 
     & > span {
-      color: $brown;
-      font-size: 48px;
+      color: $white;
+      font-size: 72px;
       font-weight: bold;
+      margin-bottom: 32px;
 
       @media (max-width: 768px) {
-        font-size: 32px;
+        font-size: 56px;
       }
     }
 
@@ -57,13 +57,12 @@
 
       & > img {
         width: 100%;
-        border-radius: 8px;
       }
 
       & > span {
         &:first-of-type {
-          color: $brown;
-          font-size: 20px;
+          color: $white;
+          font-size: 24px;
           font-weight: bold;
           padding: 8px 0 0;
 
@@ -97,7 +96,7 @@
         }
 
         & > svg {
-          color: $brown;
+          color: $white;
           width: 24px;
           height: 24px;
 

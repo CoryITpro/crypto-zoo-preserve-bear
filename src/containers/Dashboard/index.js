@@ -5,10 +5,10 @@ import Hero from "components/Hero"
 import About from "components/About"
 import Feature from "components/Freatures"
 import Slider from "components/Slider"
+import Breeding from "components/Breeding"
 import Roadmap from "components/Roadmap"
 import Team from "components/Team"
 import FAQ from "components/Faq"
-import Discord from "components/Discord"
 import Footer from "components/Footer"
 
 const Dashboard = () => {
@@ -35,16 +35,16 @@ const Dashboard = () => {
   return (
     <>
       <Sidebar show={showSidebar} onHandleSidebar={onHandleSidebar} />
-      <Navbar onHandleSidebar={onHandleSidebar} />
+      <Navbar show={showSidebar} onHandleSidebar={onHandleSidebar} />
       <Hero />
       <About />
       <Feature />
       <Slider />
+      <Breeding />
       <Roadmap />
-      <Team />
       <FAQ />
-      <Discord />
-      <Footer />
+      <Team />
+      {/* <Footer /> */}
     </>
   )
 }

@@ -3,63 +3,64 @@
 .slider {
   position: relative;
   width: 100%;
-  padding: 48px 0;
+  padding: 72px 0 32px;
   align-items: center;
-  background-color: $darkgray;
-
-  @media (max-width: 768px) {
-    padding: 36px 0;
-  }
+  background-color: $black;
 
   &-title {
     display: grid;
-    grid-template: auto / 1fr 1fr;
-    margin-bottom: calc(272px + 32px);
+    grid-template: auto / 65% 35%;
+    margin-bottom: calc(272px + 40px);
 
     @media (max-width: 768px) {
       grid-template: auto / 1fr;
-      margin-bottom: calc(174px + 32px);
+      margin-bottom: calc(210px + 8px);
     }
 
-    & > span {
-      color: $brown;
-      font-size: 48px;
-      font-weight: bold;
+    & > div {
+      padding-right: 48px;
 
       @media (max-width: 768px) {
-        text-align: center;
+        padding-right: 0px;
+      }
+
+      & > span {
+        color: $white;
+        font-size: 72px;
+        font-weight: bold;
+
+        @media (max-width: 768px) {
+          text-align: center;
+          font-size: 56px;
+        }
+
+        & > span {
+          color: $pink;
+        }
+      }
+
+      & > p {
+        color: $white;
         font-size: 32px;
       }
     }
 
-    & > div {
-      color: $gray;
-      font-size: 18px;
+    & > a {
+      height: min-content;
+      color: $pink;
+      background-color: $white;
+      text-decoration: none;
+      padding: 16px 24px;
+      border: none;
+      width: min-content;
+      white-space: nowrap;
+      margin-top: 24px;
+      border-radius: 8px;
+      font-size: 28px;
+      font-weight: bold;
 
       @media (max-width: 768px) {
-        font-size: 16px;
-        text-align: center;
-        margin-top: 24px;
-      }
-
-      & > span {
         font-size: 20px;
-
-        @media (max-width: 768px) {
-          font-size: 16px;
-        }
-      }
-
-      & > a {
-        color: $brown;
-        text-decoration: none;
-        padding: 16px 24px;
-        border: 1px solid $brown;
-        width: min-content;
-        white-space: nowrap;
-        margin-top: 24px;
-        border-radius: 8px;
-        font-weight: bold;
       }
     }
   }
@@ -69,10 +70,11 @@
     overflow: hidden;
     width: 3264px;
     right: 0px;
-    bottom: 32px;
+    bottom: 24px;
     animation: slider_big 60s linear infinite;
 
     @media (max-width: 768px) {
+      bottom: 16px;
       width: 2088px;
       animation: slider_small 60s linear infinite;
     }
@@ -80,22 +82,28 @@
     &-item {
       width: 272px;
       align-items: center;
-      padding: 0 16px;
+      padding: 0 8px;
 
       @media (max-width: 768px) {
         width: 174px;
-        padding: 0 12px;
+        padding: 0 4px;
         font-size: 14px;
       }
 
       & > img {
         width: 100%;
-        border-radius: 8px;
       }
 
       & > span {
+        color: $white;
         margin-top: 8px;
-        color: $theme;
+        font-size: 24px;
+        text-transform: uppercase;
+
+        @media (max-width: 768px) {
+          font-size: 18px;
+          text-align: center;
+        }
       }
     }
   }

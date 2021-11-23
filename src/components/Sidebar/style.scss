@@ -3,35 +3,37 @@
 .sidebar {
   position: fixed;
   align-items: center;
-  width: 320px;
+  width: 360px;
   height: 100vh;
-  right: -320px;
+  right: -360px;
   backdrop-filter: blur(016px);
-  background-color: rgba($color: $brown, $alpha: 0.3);
+  background-color: rgba($color: $black, $alpha: 0.3);
   z-index: 100;
   transition: 0.5s;
 
+  @media (max-width: 425px) {
+    width: 100%;
+    right: -100%;
+  }
+
   &-links {
-    padding: 72px 0 24px;
+    padding: 128px 0 24px;
 
     &-anchor {
-      font-size: 24px;
+      font-size: 36px;
       padding: 16px 0;
       text-align: center;
-      color: $brown;
+      color: $white;
+      text-transform: uppercase;
+      cursor: pointer;
     }
   }
 
   &-socials {
-    display: none;
     cursor: pointer;
 
-    @media (max-width: 768px) {
-      display: flex;
-    }
-
     & > a {
-      color: $brown;
+      color: $white;
 
       &:not(:last-of-type) {
         margin-right: 16px;
@@ -46,12 +48,12 @@
 
   & > a {
     display: none;
-    color: $brown;
+    color: $white;
     text-decoration: none;
     font-size: 18px;
     margin: 64px 0 0;
     padding: 16px 24px;
-    border: 2px solid $brown;
+    border: 2px solid $white;
     border-radius: 8px;
     cursor: pointer;
 

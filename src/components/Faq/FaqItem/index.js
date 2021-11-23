@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { FaPlus, FaMinus } from "react-icons/fa"
+import { FaChevronUp, FaChevronDown } from "react-icons/fa"
 import "./style.scss"
 
 const FaqItem = ({ question, answer }) => {
@@ -8,7 +8,7 @@ const FaqItem = ({ question, answer }) => {
   return (
     <div className="faq-item flex flex-column">
       <span className="flex" onClick={() => setShow(!show)}>
-        {question} {show ? <FaMinus /> : <FaPlus />}
+        {question} {show ? <FaChevronUp /> : <FaChevronDown />}
       </span>
       {show && <p>{answer}</p>}
     </div>

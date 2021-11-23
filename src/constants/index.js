@@ -39,7 +39,7 @@ export const FamousPaws = [
   },
   {
     image: GrizzlyDon3,
-    title: "Grizzly Don 3",
+    title: "Grizzly Don",
   },
   {
     image: GrizzlyWise,
@@ -66,84 +66,67 @@ export const FamousPaws = [
 export const RoadmapSteps = [
   {
     percentage: 10,
-    title: "GRAND OPENING",
-    content:
+    content: [
       "Accolade of 25,000 discord members was achieved. Join the whitelist to access our 500 bear presale.",
+      "Accolade of 25,000 discord members was achieved. Join the whitelist to access our 500 bear presale.",
+      "Accolade of 25,000 discord members was achieved. Join the whitelist to access our 500 bear presale.",
+    ],
   },
   {
     percentage: 20,
-    title: "ROUND OF SHOTS",
-    content:
+    content: [
       "Land has been purchased in the metaverse. Also a $12,000 donation has been sent to (Zoo Place)under our communities name. 2500 more zoo animals are released into the metaverse. ",
+      "Land has been purchased in the metaverse. Also a $12,000 donation has been sent to (Zoo Place)under our communities name. 2500 more zoo animals are released into the metaverse. ",
+      "Land has been purchased in the metaverse. Also a $12,000 donation has been sent to (Zoo Place)under our communities name. 2500 more zoo animals are released into the metaverse. ",
+    ],
   },
   {
     percentage: 40,
-    title: "GET BIGGER",
-    content: "Another 12,000 Donation to (Zoo Place)",
+    content: [
+      "Another 12,000 Donation to (Zoo Place)",
+      "Another 12,000 Donation to (Zoo Place)",
+      "Another 12,000 Donation to (Zoo Place)",
+    ],
   },
   {
     percentage: 60,
-    title: "Coming soon",
-    content: "Coming soon",
+    content: ["Coming soon", "Coming soon", "Coming soon"],
   },
   {
     percentage: 80,
-    title: "Coming soon",
-    content: "Coming soon",
+    content: ["Coming soon", "Coming soon", "Coming soon"],
   },
   {
     percentage: 100,
-    title: "Coming soon",
-    content: "Coming soon",
+    content: ["Coming soon", "Coming soon", "Coming soon"],
   },
 ]
 
 export const TeamMembers = [
   {
-    name: "BEAR ONE",
+    name: "BEAR CHIEF",
     role: "The Co-Founder",
     instagram: "instagram",
     linkedin: "linkedin",
     avatar: BabyYoBear,
   },
   {
-    name: "BEAR TWO",
+    name: "SUPER-BEAR",
     role: "The Co-Founder",
     instagram: "instagram",
     linkedin: "linkedin",
     avatar: BabyYoBear,
   },
   {
-    name: "BEAR THREE",
+    name: "DOC BEAR",
     role: "Website & Blockchain Expert",
     instagram: "",
     linkedin: "",
     avatar: BabyYoBear,
   },
   {
-    name: "BEAR FOUR",
+    name: "KLASKY BEAR",
     role: "The Artist",
-    instagram: "instagram",
-    linkedin: "linkedin",
-    avatar: BabyYoBear,
-  },
-  {
-    name: "BEAR FIVE",
-    role: "The Marketing Spirit",
-    instagram: "instagram",
-    linkedin: "linkedin",
-    avatar: BabyYoBear,
-  },
-  {
-    name: "BEAR SIX",
-    role: "The Advisor",
-    instagram: "instagram",
-    linkedin: "linkedin",
-    avatar: BabyYoBear,
-  },
-  {
-    name: "BEAR SEVEN",
-    role: "Discord Expert",
     instagram: "instagram",
     linkedin: "linkedin",
     avatar: BabyYoBear,

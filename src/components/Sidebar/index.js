@@ -18,7 +18,7 @@ const Sidebar = ({ show, onHandleSidebar }) => (
           to={data.toLowerCase()}
           spy={true}
           smooth={true}
-          offset={-96}
+          offset={-24}
           duration={500}
           onClick={onHandleSidebar}
         >
